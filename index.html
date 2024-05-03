@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 1</title>
+    <title>Mi primer formulario</title>
 </head>
 <body>
     <p>Hola Mundo</p>
+    <form>
+        <table border="0" width="50%">
+            <tr>
+                <th colspan="4">Datos Personales</th>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"><label for="name">Nombre y Apellido</label></td>
+                <td width="30%"><input type="text" name="nombre" id="nombre"></td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"><label for="name">Direccion</label></td>
+                <td width="30%"><input type="text" name="nombre" id="nombre"></td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td colspan="2">
+                    <input type="radio" id="hombre" name="genero">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="genero">
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" id="otros" name="genero">
+                    <label for="otros">Otros</label>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"><label for="nombre">Idioma</label></td>
+                <td width="30%">
+                    <select name="idiomas" id="idiomas" name="lenguajes" >
+                        <option value="spanish">Español</option>
+                        <option value="english">Ingles</option>
+                        <option value="frances">Frances</option>
+                        <option value="portugues">Portugues</option>
+                        <option value="ruso">Ruso</option>
+                    </select>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td widht="20%"></td>
+                <td colspan="2">
+                    <textarea name="descripcion" id="descripcion"></textarea>
+                </td>
+                <td widht="20%"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
